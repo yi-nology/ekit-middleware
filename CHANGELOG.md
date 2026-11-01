@@ -1,3 +1,7 @@
+## [v0.13.6] — 2026-11-02
+
+- fix(fail): WrapBizError 的 cause 落日志（壳文案排障盲区）
+
 ## [v0.13.5] — 2026-10-31
 
 - fix(contrib/jwt): 签发与验签必须同源——密钥轮换后自签 token 曾被自家 401；cache 冻结后 opts 不再被改写
